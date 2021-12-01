@@ -1,1 +1,1 @@
-Hello World Appliation in Expo
+Hello World Application in Expo
