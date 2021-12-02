@@ -12,12 +12,12 @@ export default function App() {
   return (
     <View style={styles.container}>
       <Text style={styles.paragraph}>
-      <Text>Member: Ričards Reinsons</Text>
-      <Text>Ths is my, Ričards Reinsons, first React Native application!</Text>
+        <Text>Member: Ričards Reinsons</Text>
+        <Text>
+          This is my, Ričards Reinsons, first React Native application!
+        </Text>
       </Text>
-      <Card>
-        <AssetExample />
-      </Card>
+      <AssetExample />
     </View>
   );
 }
@@ -27,7 +27,7 @@ const styles = StyleSheet.create({
     flex: 1,
     justifyContent: 'center',
     paddingTop: Constants.statusBarHeight,
-    backgroundColor: '#ecf0f1',
+    backgroundColor: '#f5a742',
     padding: 8,
   },
   paragraph: {
